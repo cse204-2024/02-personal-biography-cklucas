@@ -1,4 +1,2 @@
 # Starter HTML
-This repository provides a blank index.html file. 
-
-Before submitting, replace the text in this README file with your name and a brief description of your work (just a sentence or two will do).
+Charlotte Lucas. I made this webpage my current resume, using similar formatting and layout as my resume. I included all aspects of the assignment requirements.
