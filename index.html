@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <title>CSE 204 - Assignment 02 Personal Bio</title>
         <style>
-            ul:first-child li{
+            #first-child li{
                 float: left;
                 width: 33.33%;
             }
-            ul:first-child li:before { content:"\2713\0020"; }
+            ul li:before { content:"\2713\0020"; }
             ul{
                 list-style-type: disc;
             }
@@ -17,7 +17,7 @@
 
     <body>
         <header>
-        <h1>CHARLOTTE LUCAS        Barrington, IL 60010 • (847) 404-6376 • clucas0027@gmail.com</h1> <!--figure out spacing-->
+        <h1>CHARLOTTE LUCAS        <small>Barrington, IL 60010 • (847) 404-6376 • clucas0027@gmail.com</small></h1> <!--figure out spacing-->
         <p><small>resume as of January 2024</small></p>
         </header>
         <hr>
@@ -27,12 +27,12 @@
         </p>
         <hr>
         <h2>Areas of Expertise</h2>
-        <ul:first-child>
+        <ul id="first-child">
             <li>Software Development</li> <!--figure out layout, see if you can add checkmarks instead-->
             <li>Computer Engineering</li> <li>Critical Thinking</li>
             <li>Systems Engineering</li> <li>Teaching & Development</li> <li>Computer Science</li>
             <li>Code Review</li> <li>Project Management</li> <li>Team Leadership</li>
-        </ul:first-child>
+        </ul>
         <hr>
         <h2>Education</h2>
         <p>
