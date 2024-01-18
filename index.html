@@ -8,7 +8,7 @@
                 float: left;
                 width: 33.33%;
             }
-            ul li:before { content:"\2713\0020"; }
+            ul:first-child li:before { content:"\2713\0020"; }
             ul{
                 list-style-type: disc;
             }
@@ -27,12 +27,12 @@
         </p>
         <hr>
         <h2>Areas of Expertise</h2>
-        <ul>
+        <ul:first-child>
             <li>Software Development</li> <!--figure out layout, see if you can add checkmarks instead-->
             <li>Computer Engineering</li> <li>Critical Thinking</li>
             <li>Systems Engineering</li> <li>Teaching & Development</li> <li>Computer Science</li>
             <li>Code Review</li> <li>Project Management</li> <li>Team Leadership</li>
-          </ul>
+        </ul:first-child>
         <hr>
         <h2>Education</h2>
         <p>
